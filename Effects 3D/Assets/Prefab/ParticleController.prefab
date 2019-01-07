@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1924746027651464}
+  m_IsPrefabAsset: 1
+--- !u!1 &1924746027651464
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4888902258770822}
+  - component: {fileID: 114437059508323088}
+  m_Layer: 0
+  m_Name: ParticleController
+  m_TagString: PartController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4888902258770822
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924746027651464}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114437059508323088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1924746027651464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d226f203fef681e4b871b08c75be117a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startTimer: 0
+  waitTime: 173
+  tl: 1
+  Controller: {fileID: 1924746027651464}
+  Powers:
+  - {fileID: 1106220916994260, guid: 9640e984417a2994da51cdfd83fffbd3, type: 2}
+  - {fileID: 1000530864080654, guid: a7c72f1abd9236740869a8e687cf43a2, type: 2}
+  - {fileID: 1696104845307506, guid: 4e6e502695e04ac4aab6c42f050aab49, type: 2}
+  - {fileID: 1748455954296528, guid: e2c3d5ccdb4ae214489de0dd1987e77a, type: 2}
+  hair2: {fileID: 1694441867442746, guid: d7bd71f2e1e793f4a91f53813fd4e81f, type: 2}
+  hair3: {fileID: 1715446445038766, guid: 5d7a4e34805fd3a47bbcafbceb3368b5, type: 2}
